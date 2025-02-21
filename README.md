@@ -78,6 +78,7 @@ BERT tiny model benchmark settings:
 
 
  - See `bert-tiny-benchmark.ipynb` for BERT tiny model results
+
  Fig 2(b) Both MLM loss and NSP loss in BERT-tiny exhibit ESP.
 
 
@@ -110,6 +111,7 @@ Fig. 19 The effects of data shuffling on incremental quadratic optimization.
 ![Fig 17](img/dot-deltax-g100.png)
 
  - See `replication-example-rmsprop.ipynb` for the analysis on replication example (using RMSProp), including:
+
 Fig. 21 Incremental quadratic optimization replication using RMSProp optimizer.
 ![Fig 21](img/replication-rmsprop.png)
 
@@ -120,6 +122,8 @@ Fig. 21 Incremental quadratic optimization replication using RMSProp optimizer.
 
 
  - See `replication-example-reverse-and-with-replacement.ipynb` for the reversing the sample sequence and sample with replacement:
+
+   
  Fig. 19 The effects of data shuffling on incremental quadratic optimization. (a) Incremental quadratic optimization with shuffle=True. ESP is replicated when we shuffle data. Smaller β2 exacerbates ESP. Similar to Figure 4 (b) When Shuffle=False, ESP is not observed. (c) Reverse the sample sequence for each epoch. This significantly amplifies the ESP, aligning with our earlier analysis illustrated in Figure 12. (d) Sample with replacement. ESP is not observed.
 ![Fig 19](img/replication-benchmark.png)
 
