@@ -82,6 +82,7 @@ BERT tiny model benchmark settings:
 
 
  - See `replication-example-benchmark.ipynb` for the Epochal Sawtooth Phenomenon (ESP) realized by using incremential quadratic optimization.
+
 Fig. 19 The effects of data shuffling on incremental quadratic optimization.
 ![Fig. 19 The effects of data shuffling on incremental quadratic optimization.](img/replication-benchmark.png)
 
