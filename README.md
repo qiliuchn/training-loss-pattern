@@ -80,23 +80,30 @@ BERT tiny model benchmark settings:
  - See `bert-tiny-benchmark.ipynb` for BERT tiny model results
  Fig 2(b) Both MLM loss and NSP loss in BERT-tiny exhibit ESP.
 
+
  - See `replication-example-benchmark.ipynb` for the Epochal Sawtooth Phenomenon (ESP) realized by using incremential quadratic optimization.
 Fig. 19 The effects of data shuffling on incremental quadratic optimization.
 ![Fig. 19 The effects of data shuffling on incremental quadratic optimization.](img/replication-benchmark.png)
 
+
  - See `replication-example-analysis.ipynb` for the analysis on replication example (using Adam), including:
+
 
  Fig. 11 (a) m norm over epoch 4-6; (b) v norm over epoch 4-6. Momentum takes on large value at the beginning of epoch, then drop exponentially; afterwards gradually increases. ∥v∥ steadily increases during epoch.
  ![Fig 11](img/m-v-norms.png)
 
+
  Fig. 13 ⟨gt,∇lbt ⟩ for batch b=100.
  ![Fig 13](img/dot-gt-g100.png)
+
 
  Fig. 14 (a) ⟨mt,∇lbt ⟩
  ![Fig 14](img/dot-mt-g100.png)
 
+
  Fig. 15 (a) ∥gt∥ over epoch 4 and 5; (b) Regression line of ∥gt∥ over epoch 4.
 ![Fig 15](img/grad_norm.png)
+
 
  Fig. 17 (a) ⟨Δθt,∇lb t ⟩ over epoch 4 for b=100
 ![Fig 17](img/dot-deltax-g100.png)
@@ -105,17 +112,21 @@ Fig. 19 The effects of data shuffling on incremental quadratic optimization.
 Fig. 21 Incremental quadratic optimization replication using RMSProp optimizer.
 ![Fig 21](img/replication-rmsprop.png)
 
+
  - See `replication-example-loss-init.ipynb` for the initial loss:
  Fig. 10 (a) Training loss curve when plot every=1. (b) Histogram of loss of all batches at the start of epoch 4.
 ![Fig 10](img/loss-all-batches-init.png)
+
 
  - See `replication-example-reverse-and-with-replacement.ipynb` for the reversing the sample sequence and sample with replacement:
  Fig. 19 The effects of data shuffling on incremental quadratic optimization. (a) Incremental quadratic optimization with shuffle=True. ESP is replicated when we shuffle data. Smaller β2 exacerbates ESP. Similar to Figure 4 (b) When Shuffle=False, ESP is not observed. (c) Reverse the sample sequence for each epoch. This significantly amplifies the ESP, aligning with our earlier analysis illustrated in Figure 12. (d) Sample with replacement. ESP is not observed.
 ![Fig 19](img/replication-benchmark.png)
 
+
  - See `replication-example-analysis-different-beta2_v2.ipynb` and `replication-example-analysis-different-eps.ipynb` for the analysis on replication example (using Adam) under different beta_2 and epsilon values:
 Fig. 22 The effects of varying β2 and ϵ
 ![Fig 22](img/vary_beta2_and_eps.png)
+
 
  - See `dot_product_analysis.ipynb` for the 3D example of dot product analysis:
  Fig. 16 The n-shaped similarity explained by low dimensional example
