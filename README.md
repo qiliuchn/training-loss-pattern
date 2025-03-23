@@ -138,8 +138,14 @@ Fig. 22 The effects of varying β2 and ϵ
  ![Fig 16](img/dot_deltax_flip_sign_explain.png)
 
 
- - Additional result for model size test:
+ - Additional result for test on model size:
  ![additional figure](img/additional_figure_model_size.png)
+
+ - Additional result for test on plot-every parameter:
+ ![additional figure](img/additional_figure_plot_every.png)
+
+ - Additional result for test on batch size:
+ ![additional figure](img/additional_figure_batch_size.png)
 
 
 
