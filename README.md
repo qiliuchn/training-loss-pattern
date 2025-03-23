@@ -139,30 +139,63 @@ Fig. 22 The effects of varying β2 and ϵ
 
 
  - Additional result for test on model size:
+
+The results for BERT-tiny. Model size is the significant influencing factor.
+
  ![additional figure](img/additional_figure_model_size.png)
 
  - Additional result for test on plot-every parameter:
+
+The parameter plot every defines the number of steps used for averaging when
+plotting. When the batch size is fixed, the effect of plot every is shown in Figure below. As plot every increases, the ESP weakens.
+
  ![additional figure](img/additional_figure_plot_every.png)
 
  - Additional result for test on batch size:
+
+Studying the effect of batch size is slightly more complex. To ensure that the number of samples used for averaging (i.e.,
+batch size * plot every) remains the same, we adjust the plot every parameter accordingly. The results are displayed in Figure below. As batch size increases, ESP also
+weakens and become less discernible.
+
  ![additional figure](img/additional_figure_batch_size.png)
 
  - Additional result for test on weight decay:
+
+The weight decay parameter has a relatively small impact on ESP. Larger values of weight decay slightly weaken the ESP, as shown in Figure below. Model size, however, has a significant impact on ESP, as shown in Figure 9. As the model size increases, ESP becomes more prominent.
+
  ![additional figure](img/additional_figure_weight_decay.png)
 
  - Additional result for test on beta_1:
+
+Effects of β1 settings on ESP; (a) BERT-tiny with betas=(0.5, 0.999); (b) BERT-tiny
+with betas=(0, 0.999). β1 does not have a noticeable effect on ESP.
+
  ![additional figure](img/additional_figure_beta_1.png)
 
  - Additional result for test on batch size for replication example:
+
+(a) batch size=100; (b) batch size=200. Larger batch size can mitigates ESP.
+
  ![additional figure](img/additional_figure_replication_batch_size.png)
 
  - Additional result for test on betas for replication example:
+
+(a) β1 = 0.9; (b) β1 = 0.1; ESP becomes less pronounced when β1 get smaller; this feature
+differs from the BERT example (Figure 5).
+
  ![additional figure](img/additional_figure_replication_betas.png)
 
  - Additional result for test on rmsprop optimizor for replication example:
+
+Incremental quadratic optimization replication using RMSProp optimizer. (a)
+shuffle=True; ESP still exists, but it is much more subtle. At epoch 10, the training loss increased by
+about 10% at the end of the epoch. (b) shuffle=False. No shuffling mitigates ESP, similar to Adam.
+
  ![additional figure](img/additional_figure_replication_rmsprop.png)
 
  - Additional result for loss curve comparision:
- ![additional figure](img/additional_figure_loss_curves_comparison.png)
 
+l^t_t compared with l^b_t for fixed b = 100; they exhibit the same pattern shown by Eqn 10.
+
+ ![additional figure](img/additional_figure_loss_curves_comparison.png)
 
