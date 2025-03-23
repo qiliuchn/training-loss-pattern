@@ -144,7 +144,7 @@ Fig. 22 The effects of varying β2 and ϵ
  - Additional result for test on plot-every parameter:
  ![additional figure](img/additional_figure_plot_every.png)
 
- - Additional result for test on batch size:
+ - Additional result for test on weight decay:
  ![additional figure](img/additional_figure_batch_size.png)
 
 
