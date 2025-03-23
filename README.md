@@ -153,8 +153,8 @@ Fig. 22 The effects of varying β2 and ϵ
  - Additional result for test on beta_1:
  ![additional figure](img/additional_figure_beta_1.png)
 
- - Additional result for test on additional_figure_replication_batch_size:
- ![additional figure](img/additional_additional_figure_replication_batch_size.png)
+ - Additional result for test on batch size for replication example:
+ ![additional figure](img/additional_figure_replication_batch_size.png)
 
  - Additional result for test on betas for replication example:
  ![additional figure](img/additional_figure_replication_betas.png)
