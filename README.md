@@ -144,11 +144,25 @@ Fig. 22 The effects of varying β2 and ϵ
  - Additional result for test on plot-every parameter:
  ![additional figure](img/additional_figure_plot_every.png)
 
- - Additional result for test on weight decay:
- ![additional figure](img/additional_figure_weight_decay.png)
-
  - Additional result for test on batch size:
  ![additional figure](img/additional_figure_batch_size.png)
 
+ - Additional result for test on weight decay:
+ ![additional figure](img/additional_figure_weight_decay.png)
+
+ - Additional result for test on beta_1:
+ ![additional figure](img/additional_figure_beta_1.png)
+
+ - Additional result for test on additional_figure_replication_batch_size:
+ ![additional figure](img/additional_additional_figure_replication_batch_size.png)
+
+ - Additional result for test on betas for replication example:
+ ![additional figure](img/additional_figure_replication_betas.png)
+
+ - Additional result for test on rmsprop optimizor for replication example:
+ ![additional figure](img/additional_figure_replication_rmsprop.png)
+
+ - Additional result for loss curve comparision:
+ ![additional figure](img/additional_figure_loss_curves_comparison.png)
 
 
