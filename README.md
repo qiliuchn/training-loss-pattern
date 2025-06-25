@@ -3,9 +3,11 @@ Qi Liu (liu_qi@tongji.edu.cn) and Wanjing Ma(mawanjing@tongji.edu.cn)
 
 College of Transportation, Tongji University, Shanghai, P.R.China
 
-Files for the results in the paper:
+Files for replicating the results in the paper:
 
-> Qi Liu and Wanjing Ma, 2025. The Epochal Sawtooth Phenomenon: Unveiling Training Loss Oscillations in Adam and Other Optimizers.
+> Liu, Q. and Ma, W., 2025. The Epochal Sawtooth Phenomenon: Unveiling Training Loss Oscillations in Adam and Other Optimizers. Neural Processing Letters, 57(3), pp.1-19.
+
+
  - See `bert.py` for BERT model
  BERT small model benchmark settings:
  ```json
