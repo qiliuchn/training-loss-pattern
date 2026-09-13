@@ -1,5 +1,5 @@
 # Epochal Sawtooth Phenomenon
-Qi Liu (liu_qi@tongji.edu.cn) and Wanjing Ma(mawanjing@tongji.edu.cn)
+Qi Liu (liuqi_tj[at]hotmail.com) and Wanjing Ma
 
 College of Transportation, Tongji University, Shanghai, P.R.China
 
